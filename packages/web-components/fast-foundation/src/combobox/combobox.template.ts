@@ -24,6 +24,7 @@ export const ComboboxTemplate: ViewTemplate<Combobox> = html`
                 <input
                     class="selected-value"
                     part="selected-value"
+                    placeholder="${x => x.placeholder}"
                     role="${x => x.role}"
                     type="text"
                     aria-activedescendant="${x =>
